@@ -1,0 +1,172 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\work\prjs\home_voice_machine\LD3320-STM32f4\code\STM32f4\Project\voice_machine.uvproj
+Project File Date:  03/30/2015
+
+<h2>Output:</h2>
+Build target 'voice_machine'
+compiling stm32f4_discovery.c...
+compiling LD3320.c...
+..\User\LD3320\LD3320.c(530): warning:  #177-D: function "ProcessInt" was declared but never referenced
+  static void ProcessInt(void)
+..\User\LD3320\LD3320.c: 1 warning, 0 errors
+linking...
+Program Size: Code=50260 RO-data=564 RW-data=68 ZI-data=2028  
+".\voice_machine.axf" - 0 Error(s), 1 Warning(s).
+riteRead (referred from ld3320.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+".\voice_machine.axf" - 2 Error(s), 1 Warning(s).
+Target not created
+xx_hal_dcmi.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_dma2d.c...
+compiling stm32f4xx_hal_eth.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_hash.c...
+compiling stm32f4xx_hal_hash_ex.c...
+compiling stm32f4xx_hal_hcd.c...
+compiling stm32f4xx_hal_i2c.c...
+compiling stm32f4xx_hal_i2c_ex.c...
+compiling stm32f4xx_hal_i2s.c...
+compiling stm32f4xx_hal_i2s_ex.c...
+compiling stm32f4xx_hal_irda.c...
+compiling stm32f4xx_hal_iwdg.c...
+compiling stm32f4xx_hal_ltdc.c...
+compiling stm32f4xx_hal_msp_template.c...
+compiling stm32f4xx_hal_nand.c...
+compiling stm32f4xx_hal_nor.c...
+compiling stm32f4xx_hal_pccard.c...
+compiling stm32f4xx_hal_pcd.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_rng.c...
+compiling stm32f4xx_hal_rtc.c...
+compiling stm32f4xx_hal_rtc_ex.c...
+compiling stm32f4xx_hal_sai.c...
+compiling stm32f4xx_hal_sd.c...
+compiling stm32f4xx_hal_sdram.c...
+compiling stm32f4xx_hal_smartcard.c...
+compiling stm32f4xx_hal_sram.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_wwdg.c...
+compiling stm32f4xx_ll_fmc.c...
+compiling stm32f4xx_ll_fsmc.c...
+compiling stm32f4xx_ll_sdmmc.c...
+compiling stm32f4xx_ll_usb.c...
+compiling main.c...
+compiling LD3320.c...
+..\User\LD3320\LD3320.c(530): warning:  #177-D: function "ProcessInt" was declared but never referenced
+  static void ProcessInt(void)
+..\User\LD3320\LD3320.c: 1 warning, 0 errors
+assembling startup_stm32f407xx.s...
+compiling system_stm32f4xx.c...
+linking...
+.\voice_machine.axf: Error: L6218E: Undefined symbol SPIx_Init (referred from ld3320.o).
+.\voice_machine.axf: Error: L6218E: Undefined symbol SPIx_WriteRead (referred from ld3320.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+".\voice_machine.axf" - 2 Error(s), 1 Warning(s).
+Target not created
+struct "<unnamed>" has no field "USART_BaudRate"
+        USART_InitStructure.USART_BaudRate = TEST_USART_BAUD;
+..\User\usart\usart.c(49): error:  #136: struct "<unnamed>" has no field "USART_WordLength"
+        USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+..\User\usart\usart.c(49): error:  #20: identifier "USART_WordLength_8b" is undefined
+        USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+..\User\usart\usart.c(50): error:  #136: struct "<unnamed>" has no field "USART_StopBits"
+        USART_InitStructure.USART_StopBits = USART_StopBits_1;
+..\User\usart\usart.c(50): error:  #20: identifier "USART_StopBits_1" is undefined
+        USART_InitStructure.USART_StopBits = USART_StopBits_1;
+..\User\usart\usart.c(51): error:  #136: struct "<unnamed>" has no field "USART_Parity"
+        USART_InitStructure.USART_Parity = USART_Parity_No ;
+..\User\usart\usart.c(51): error:  #20: identifier "USART_Parity_No" is undefined
+        USART_InitStructure.USART_Parity = USART_Parity_No ;
+..\User\usart\usart.c(52): error:  #136: struct "<unnamed>" has no field "USART_HardwareFlowControl"
+        USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+..\User\usart\usart.c(52): error:  #20: identifier "USART_HardwareFlowControl_None" is undefined
+        USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+..\User\usart\usart.c(53): error:  #136: struct "<unnamed>" has no field "USART_Mode"
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+..\User\usart\usart.c(53): error:  #20: identifier "USART_Mode_Rx" is undefined
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+..\User\usart\usart.c(53): error:  #20: identifier "USART_Mode_Tx" is undefined
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+..\User\usart\usart.c(54): warning:  #223-D: function "USART_Init" declared implicitly
+        USART_Init(TEST_USART, &USART_InitStructure);
+..\User\usart\usart.c(56): warning:  #223-D: function "USART_ITConfig" declared implicitly
+        USART_ITConfig(TEST_USART, USART_IT_RXNE, ENABLE);
+..\User\usart\usart.c(58): warning:  #223-D: function "USART_Cmd" declared implicitly
+        USART_Cmd(TEST_USART, ENABLE);
+..\User\usart\usart.c(67): warning:  #223-D: function "USART_SendData" declared implicitly
+                USART_SendData(TEST_USART, (uint8_t) ch);
+..\User\usart\usart.c(70): warning:  #223-D: function "USART_GetFlagStatus" declared implicitly
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_TC) == RESET);                
+..\User\usart\usart.c(79): warning:  #223-D: function "USART_GetFlagStatus" declared implicitly
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_RXNE) == RESET);
+..\User\usart\usart.c(81): warning:  #223-D: function "USART_ReceiveData" declared implicitly
+                return (int)USART_ReceiveData(TEST_USART);
+..\User\usart\usart.c: 11 warnings, 25 errors
+".\voice_machine.axf" - 25 Error(s), 11 Warning(s).
+Target not created
+FlagStatus" declared implicitly
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_RXNE) == RESET);
+..\User\usart\usart.c(79): error:  #20: identifier "USART1" is undefined
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_RXNE) == RESET);
+..\User\usart\usart.c(79): error:  #20: identifier "USART_FLAG_RXNE" is undefined
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_RXNE) == RESET);
+..\User\usart\usart.c: 10 warnings, 30 errors
+".\voice_machine.axf" - 31 Error(s), 10 Warning(s).
+Target not created
+r:  #20: identifier "USART_StopBits_1" is undefined
+        USART_InitStructure.USART_StopBits = USART_StopBits_1;
+..\User\usart\usart.c(49): error:  #20: identifier "USART_Parity_No" is undefined
+        USART_InitStructure.USART_Parity = USART_Parity_No ;
+..\User\usart\usart.c(50): error:  #20: identifier "USART_HardwareFlowControl_None" is undefined
+        USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+..\User\usart\usart.c(51): error:  #20: identifier "USART_Mode_Rx" is undefined
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+..\User\usart\usart.c(51): error:  #20: identifier "USART_Mode_Tx" is undefined
+        USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+..\User\usart\usart.c(52): warning:  #223-D: function "USART_Init" declared implicitly
+        USART_Init(TEST_USART, &USART_InitStructure);
+..\User\usart\usart.c(54): warning:  #223-D: function "USART_ITConfig" declared implicitly
+        USART_ITConfig(TEST_USART, USART_IT_RXNE, ENABLE);
+..\User\usart\usart.c(54): error:  #20: identifier "USART_IT_RXNE" is undefined
+        USART_ITConfig(TEST_USART, USART_IT_RXNE, ENABLE);
+..\User\usart\usart.c(56): warning:  #223-D: function "USART_Cmd" declared implicitly
+        USART_Cmd(TEST_USART, ENABLE);
+..\User\usart\usart.c(65): warning:  #223-D: function "USART_SendData" declared implicitly
+                USART_SendData(TEST_USART, (uint8_t) ch);
+..\User\usart\usart.c(65): error:  #20: identifier "USART1" is undefined
+                USART_SendData(TEST_USART, (uint8_t) ch);
+..\User\usart\usart.c(65): error:  #20: identifier "uint8_t" is undefined
+                USART_SendData(TEST_USART, (uint8_t) ch);
+..\User\usart\usart.c(65): error:  #18: expected a ")"
+                USART_SendData(TEST_USART, (uint8_t) ch);
+..\User\usart\usart.c(68): warning:  #223-D: function "USART_GetFlagStatus" declared implicitly
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_TC) == RESET);                
+..\User\usart\usart.c(68): error:  #20: identifier "USART_FLAG_TC" is undefined
+                while (USART_GetFlagStatus(TEST_USART, USART_FLAG_TC) == RESET);                
+..\User\usart\usart.c: 11 warnings, 30 errors
+assembling startup_stm32f407xx.s...
+compiling system_stm32f4xx.c...
+".\voice_machine.axf" - 30 Error(s), 14 Warning(s).
+Target not created
+: Undefined symbol __HAL_FLASH_DATA_CACHE_ENABLE (referred from stm32f4xx_hal.o).
+.\voice_machine.axf: Error: L6218E: Undefined symbol __HAL_FLASH_INSTRUCTION_CACHE_ENABLE (referred from stm32f4xx_hal.o).
+.\voice_machine.axf: Error: L6218E: Undefined symbol __HAL_FLASH_PREFETCH_BUFFER_ENABLE (referred from stm32f4xx_hal.o).
+.\voice_machine.axf: Error: L6218E: Undefined symbol USART_init (referred from main.o).
+.\voice_machine.axf: Error: L6218E: Undefined symbol SPIx_Init (referred from ld3320.o).
+.\voice_machine.axf: Error: L6218E: Undefined symbol SPIx_WriteRead (referred from ld3320.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 36 error messages.
+".\voice_machine.axf" - 36 Error(s), 30 Warning(s).
+Target not created
